@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandioso - Sekcje</title>
+</head>
+<body>
+    <header>
+        <h1>Strona o Grandioso - Wersja HTML</h1>
+    </header>
+
+    <article>
+        <h2>Sekcje</h2>
+        <p> Ten artukuł omówi nieco <strong>sekcje</strong> znajdujące się w Orkiestrze. Dowiedz się więcej o <em>insturmentach</em> w zespole.</p>
+    </article>
+
+    <table border="1">
+        <caption>Rozkłady Sekcji</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nazwa</th>
+                <th scope="col">Liczebność</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Flety</td>
+                <td>około 30</td>
+            </tr>
+            <tr>
+                <td>Trąbki</td>
+                <td>około 12</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ol type="I">
+        <caption>Inne Sekcje</caption>
+        <li>Saksofony</li>
+        <li>Puzony</li>
+        <li>Tuby</li>
+    </ol>
+
+    <img src="example.jpg" alt="Przykładowy obrazek" width="300">
+
+    <h2>Dołącz do Grandioso</h2>
+
+    <form>
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name">
+        <label for="surname">Nazwisko:</label>
+        <input type="text" id="surname" name="surname">
+        <label for="instrument">Instrument:</label>
+        <input type="text" id="instrument" name="instrument">
+        <br>
+        <label for="category">Wiek:</label>
+        <select id="category" name="category">
+            <optgroup label="Wiek">
+                <option value="1">10-14</option>
+                <option value="2">14-18</option>
+                <option value="3">18-21</option>
+                <option value="4">21+</option>
+        </select>
+        <br>
+        <button type="submit">Wyślij</button>
+    </form>
+
+    <details>
+        <summary>Więcej informacji</summary>
+        <p><a href="http://grandioso.pl/">Strona Orkiestry</a></p>
+    </details>
+    <div>
+    <img src="map.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="_blank" alt="Radom" title="Radom" href="https://pl.wikipedia.org/wiki/Radom" coords="310,185,374,203" shape="rect">
+        <area target="_blank" alt="Grandioso" title="Grandioso" href="http://grandioso.pl/" coords="321,159,14" shape="circle">
+        <area target="_blank" alt="EasterEgg" title="EasterEgg" href="https://en.wikipedia.org/wiki/Easter_egg_(media)" coords="390,143,398,139,398,150" shape="poly">
+    </map>
+    </div>
+    <h4>Strona w budowie</h4>
+    <progress value="15" max="100"></progress>
+
+    <div>
+    <iframe src="https://www.facebook.com/orkiestragrandioso" width="500" height="625" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <footer>
+        <p>&copy; Stronka Grandioso 03.2025</p>
+    </footer>
+
+</body>
+</html>
